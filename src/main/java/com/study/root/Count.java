@@ -16,7 +16,6 @@ public class Count {
             System.out.println(d + " Дюймов" + " = " + m + " Meters");
 
             count++;
-
             if (count == 12)
             {
                 System.out.println();
