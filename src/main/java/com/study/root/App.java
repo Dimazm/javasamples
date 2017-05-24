@@ -1,21 +1,25 @@
 package com.study.root;
 
+import com.study.root.exs1_square.Rectangle_1;
+import com.study.root.exs2_moon.Moon;
+import org.w3c.dom.css.Rect;
+
 import java.awt.*;
 import java.util.Scanner;
 
 /**
  * Hello world!
- *
  */
 class App {
     public static void main(String[] args) {
-        double a, l;
 
-        a = 82; // мой вес
-        l = 17 * a / 100;
+     Moon m = new Moon();
+        double v = m.moonW(85);
+        Rectangle_1 s = new Rectangle_1();
+        int q = s.rectangleS(10,5);
 
-        System.out.println("Мой вес на Земле =" + a +" кг\n" + "Мой вес на Луне = " + l+" кг\n");
 
-
+        System.out.println("Масса тела на Луне = "  + v);
+        System.out.println("Площадь прямоуголтьника = " + q);
     }
 }
