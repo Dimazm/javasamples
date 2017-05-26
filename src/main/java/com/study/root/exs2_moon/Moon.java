@@ -5,13 +5,13 @@ package com.study.root.exs2_moon;
  */
 public class Moon  {
 
-       public double moonW (int a)
+       public void  moonW (int a)
        {
 
            double l = 17 * a / 100;
-           // System.out.println("Мой вес на Земле =" + a + " кг\n" + "Мой вес на Луне = " + l + " кг\n");
+            System.out.println("Мой весgdfgdsfgdfg на Земле =" + l + "вызов с класса "+ a );
 
-           return (l);
+          // return (l);
        }
     }
 
